@@ -28,6 +28,11 @@ pipeline {
       steps {
         echo "Tadam complete!!!"
       }
+    }  
+    stage("Finish Build") {
+      steps {
+        echo "Tadam complete 2222!!!"
+      }
     }
   }
 }
